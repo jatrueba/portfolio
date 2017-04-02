@@ -1,11 +1,11 @@
 
 #page-wrapper{
     background-color:	#585858;
-    text-decoration: none;
+
     text-decoration: none; color:white;
 
 }
-a:hover, a:active , a:visited, a:focus {
+ a:active , a:visited, a:focus {
   text-decoration: none; color:black;
 
 }
@@ -20,8 +20,11 @@ a:hover, a:active , a:visited, a:focus {
   -webkit-font-smoothing: antialiased;
 
 }
+#photoshoot{
+  opacity: 0.5;
+}
 /*---- Naviagtion ---*/
-#menu, .mobile-nav{
+.mobile-nav{
   position: fixed;
     right: 0;
     margin-right: 70px;
@@ -40,33 +43,41 @@ a:hover, a:active , a:visited, a:focus {
     border-bottom: 1px solid #CEC8C8;
     text-transform: uppercase;
 }
+.logo-photo{
+  float: left;
+  width: 50%;
+  max-width: 100px;
+  height: 90px;
+  margin-right: 20px;
+  opacity: 0.9;
 
+
+}
 /*--- About ----*/
 .console {
     width: 670px;
     padding: 40px;
-    height: 620px;
+    height: 400px;
     margin: 0 auto;
     background: #383737;
 }
 .code{
-     margin-top: 150px;
+    margin-top: 150px;
     border-radius: 5px;
     width: 750px;
     margin: 0 auto;
     padding-top: 15px;
     font-size: 30px;
     background: #ccc;
-    height: 700px;
+    height: 500px;
     font-family: 'Monaco', 'Courier New';
     text-align: left;
     font-size: 13px;
     color: #fafafa;
 }
-.about {
-
+#about {
     background-color: lavender;
-    height: 1020px;
+    height: 700px;
     margin-top: -30px;
 }
 .about p {
@@ -103,4 +114,11 @@ span.skill{
 }
 #work{
   padding-left: 4px;
+}
+.foodfinder{
+  width: 100%;
+  text-align: center;
+padding: 60px 0 60px 0;
+font-size: 26px;
+line-height: 40px;
 }
